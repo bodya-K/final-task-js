@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.timer {
+    font-size: 100px;
+    text-align: center;
+    margin: 140px 0 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    width: 140px;
+    height: 40px;
+    background-color: #e74640;
+    color: #fff;
+    border-radius: 5px;
+    border: #e74640 1px solid;
+    margin: 0 20px;
+}
+
+.button-active {
+    background-color: #f08584;
+    border: #f08584 1px solid;
+    color: #ffe7ea;
+}
+
+.buttons {
+    text-align: center;
+    margin: 70px 0;
+}
+
+.box {
+    width: 400px;
+    height: 400px;
+    box-shadow: 0 0 20px 8px #9f9e9f;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: start;
+
+}
+
+.conteiner {
+    width: 60%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.block-start,
+.block-end {
+    width: 100px;
+    height: 100px;
+}
+
+.modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #00000080;
+    z-index: 1;
+    display: none;
+}
+
+.modal-block,
+.modal-block-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 700px;
+    height: 280px;
+    background-color: #fff;
+    border: 1px solid #666566;
+    margin: 70px auto;
+    border-radius: 5px;
+}
+
+.modal-block-2 {
+    display: none;
+    flex-direction: column;
+}
+
+.modal-text {
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 50px 0;
+    border-top: 2px solid #e9e7e9;
+    border-bottom: 2px solid #e9e7e9;
+    padding: 25px 0;
+}
+
+.close,
+.close-1 {
+    width: 100px;
+    height: 45px;
+    background-color: #e74640;
+    color: #fff;
+    border-radius: 5px;
+    border: #e74640 1px solid;
+    margin: 0 20px 0 238px;
+    font-size: 17px;
+    float: left;
+}
+
+.close-1 {
+    margin: 0 auto;
+}
+
+.check {
+    background-color: #1f9345;
+    border: #1f9345 1px solid;
+    margin: 0 240px 0 0;
+}
+
+.block-start {
+    height: 100px;
+    width: 100px;
+    background-image: url(./Screenshot_2.jpg);
+    color: #fff;
+}
+
+div[data-id="0"] {
+    background-position: 0 0;
+}
+
+div[data-id="1"] {
+    background-position: -100px 0;
+}
+
+div[data-id="2"] {
+    background-position: -200px 0;
+}
+
+div[data-id="3"] {
+    background-position: -300px 0;
+}
+
+div[data-id="4"] {
+    background-position: 0 -100px;
+}
+
+div[data-id="5"] {
+    background-position: -100px -100px;
+}
+
+div[data-id="6"] {
+    background-position: -200px -100px;
+}
+
+div[data-id="7"] {
+    background-position: -300px -100px;
+}
+
+div[data-id="8"] {
+    background-position: 0px -200px;
+}
+
+div[data-id="9"] {
+    background-position: -100px -200px;
+}
+
+div[data-id="10"] {
+    background-position: -200px -200px;
+}
+
+div[data-id="11"] {
+    background-position: -300px -200px;
+}
+
+div[data-id="12"] {
+    background-position: 0px -300px;
+}
+
+div[data-id="13"] {
+    background-position: -100px -300px;
+}
+
+div[data-id="14"] {
+    background-position: -200px -300px;
+}
+
+div[data-id="15"] {
+    background-position: -300px -300px;
+}
